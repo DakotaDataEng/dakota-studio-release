@@ -9,9 +9,14 @@ Dakota Studio is a Tauri 2 desktop app (Rust backend + React frontend) for runni
 - **Multi-task workspace** — Run multiple Claude Code sessions simultaneously, each in its own git worktree for full isolation
 - **Integrated terminal** — Built-in PTY terminals with activity monitoring, prompt detection, and session snapshots
 - **Git operations** — Visual commit graph, branch management, staging, diffing, and AI-generated commit messages
-- **File explorer & editor** — Monaco-based code editor with search/replace, preview tabs, and live file watching
-- **GitHub integration** — Issue linking, creation, and search directly from the app
-- **Conversation search** — Full-text search across Claude Code conversations with FTS5 indexing
+- **File explorer & editor** — Monaco-based code editor with Python tokenizer, search/replace, preview tabs, and live file watching
+- **Data workspace** — Databricks OAuth integration, SQL editor with Jinja templating, and Unity Catalog browser
+- **SQL intelligence** — Function catalog, auto-formatting, dbt macro discovery, and editor completions
+- **LSP integration** — Multi-language Language Server Protocol support for code intelligence
+- **PR dashboard** — Review, merge, check debugging, and AI-assisted code review
+- **GitHub integration** — Issue linking, creation dialog, and search directly from the app
+- **Conversation search** — Full-text search across Claude Code conversations with message dedup and FTS5 indexing
+- **Debug logging** — File-based logging with rotation, secret redaction, and frontend forwarding
 - **Auto-updates** — Signed update bundles delivered through this repo (see below)
 - **Offline-first** — All assets bundled locally, no CDN dependencies at runtime
 - **Cross-platform** — Windows (NSIS) and Linux (AppImage) builds
